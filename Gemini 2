@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+}
+
+#si, #no {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#si:hover, #no:hover {
+    background-color: #ccc;
+}
